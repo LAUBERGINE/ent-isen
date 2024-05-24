@@ -1,0 +1,120 @@
+body{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Courier Prime', monospace;
+    margin: 0;
+}
+#prochain-cours{
+    border: 2px solid #6700FF;
+    background-color: #101010;
+    height: 150px;
+    width: 500px;
+    border-radius: 45px;
+    position: relative;
+    left: 800px;
+    top: -200px;
+}
+#notes{
+    border: 3px solid #6700FF;
+    background-color: #101010;
+    height: 134px;
+    width: 134px;
+    border-radius: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top: -200px;
+}
+#notes img{
+    height: 96px;
+    width: 96px;
+}
+#compte{
+    border: 3px solid #6700FF;
+    background-color: #101010;
+    height: 134px;
+    width: 134px;
+    border-radius: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1500px;
+}
+#compte img{
+    height: 96px;
+    width: 96px;
+}
+#home{
+    border: 3px solid #6700FF;
+    background-color: #101010;
+    height: 134px;
+    width: 134px;
+    border-radius: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1700px;
+    top: 50px;
+}
+#home img{
+    height: 96px;
+    width: 96px;
+}
+#planning{
+    border: 3px solid #6700FF;
+    background-color: #101010;
+    height: 134px;
+    width: 134px;
+    border-radius: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1200px;
+    top: -200px;
+}
+#planning img{
+    height: 96px;
+    width: 96px;
+}
+#retard{
+    border: 3px solid #6700FF;
+    background-color: #101010;
+    height: 134px;
+    width: 134px;
+    border-radius: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 750px;
+    top: -200px;
+}
+#retard img{
+    height: 96px;
+    width: 96px;
+}
+ul{
+    list-style: none;
+}
+#box-info ul li{
+    font-size: 24px;
+    font-weight: bold;
+}
+#info-prochain-cours{
+    display: flex;
+    align-content: space-between;
+}
+#prochain-cours{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between;
+}
